@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    color: coral;
+}
+#container {
+    box-shadow: 10px 10px 10px #af5416;
+    border-radius: 5px;
+    border: 2px solid rgb(3, 219, 68);
+    padding: 20px 50px;
+
+}
+label {
+    font-size: 20px;
+    font-weight: 600;
+    color: brown;
+    margin: 10px 20px;
+}
+input {
+    margin: 10px 20px;
+    border-color: blue;
+    font-size: x-large;
+    padding: 0px 10px;
+    text-align: center;
+    border-width: 3px;
+    outline: none;
+}
+#operator {
+    font-size: 18px;
+    padding: 2px 3px;
+    margin: 10px 40px;
+}
+button {
+    font-size: 18px;
+    margin: 5px 35px;
+    text-align: center;
+    padding: 2px 4px;
+    font-weight: 600;
+    color: darkmagenta;
+}
+p {
+    height: 50px;
+    width: 150px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+span {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
